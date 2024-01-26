@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Compile",
+      "setup": "",
+      "run": "chmod  +x ./factorial/fact/test-fact.sh && chmod +x  ./tester/run-tests.sh && cd ./factorial/fact && gcc fact.c -o fact -Wall",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "1",
+      "setup": "",
+      "run": "cd ./factorial/fact && ./test-fact.sh -t 1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "cd ./factorial/fact && ./test-fact.sh -t 2",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "cd ./factorial/fact && ./test-fact.sh -t 3",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "cd ./factorial/fact && ./test-fact.sh -t 4",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "cd ./factorial/fact && ./test-fact.sh -t 5",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "cd ./factorial/fact && ./test-fact.sh -t 6",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "cd ./factorial/fact && ./test-fact.sh -t 7",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "cd ./factorial/fact && ./test-fact.sh -t 8",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
