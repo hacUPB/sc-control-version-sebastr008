@@ -15,3 +15,5 @@ Acabo de clonar una repositorio a mi pc, modifiqué un archivo de código, hice 
 - git commit -m "Mensaje del commit" ----> Hacer un commit
 - git push ----> Sincronizar con el repositorio remoto
 
+
+
