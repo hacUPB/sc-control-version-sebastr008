@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     /*It must be verified that the entered number is greater than or equal to zero*/
     if(number < 0)
     {
-        perror("The number must be greater than or equal to zero\n");
+        fprintf(stderr,"The number must be greater than or equal to zero\n");
         return(1);
     }
     
