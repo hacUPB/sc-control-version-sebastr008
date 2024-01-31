@@ -17,10 +17,40 @@ int main(int argc, char *argv[]) {
     }
     
     /*Implement the function that calculates the factorial of the input argument*/
+
+    int factorial = 1;
+    int b;
+    for (b = number; b > 1; b--)
+    {
+        factorial *= b;
+    }
+    
+    /*Print the result*/
+    printf("El factorial de %d es %d",number,factorial);
     
     /*Print the result*/
     
     /*Implement the function that calculates if the argument is a prime number*/
+
+    int count = 0,index = 1;
+    while (index < number)
+    {
+        if(number%index == 0)
+            {
+            count++;
+            }
+        index++;
+    }
+    
+    /*Print the result*/
+    if(count == 1)
+    {
+        printf("%d es número primo\n",number);
+    }
+    else
+    {
+        printf("%d no es número primo\n",number);
+    }
 
     /*Print the result*/
     
