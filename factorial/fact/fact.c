@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-
 int is_prime(int num) {
     if (num <= 1) return 0; // 0 and 1 are not prime
     for (int i = 2; i <= num / 2; i++) {
@@ -14,7 +11,7 @@ int is_prime(int num) {
     return 1; // Prime
 }
 
-int factorial(int n) {
+long long int factorial(int n) {
     if (n == 0 || n == 1) {
         return 1;
     }
@@ -36,10 +33,10 @@ int main(int argc, char *argv[]) {
     }
     
     /* Calculate the factorial of the input argument */
-    int fact = factorial(number);
+    long long int fact = factorial(number);
     
     /* Print the result */
-    printf("The factorial of %d is: %d\n", number, fact);
+    printf("The factorial of %d is: %lld\n", number, fact);
     
     /* Check if the argument is a prime number */
     if (is_prime(number)) {
